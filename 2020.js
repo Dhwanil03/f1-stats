@@ -1,4 +1,4 @@
-const chartdata='data2020.csv';
+const chartdata='Data2020.csv';
 
 d3.csv(chartdata).then(function(datapoints) {
     console.log(datapoints)
