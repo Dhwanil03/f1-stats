@@ -118,16 +118,7 @@ const myChart= document.getElementById('myChart').getContext('2d');
                         'Alexander Albon',
                         'Daniel Riccardo',
                         'Sergio Perez',
-                        'Lando Norris',
-                        'Kimi Räikkönen',
-                        'Daniil Kvyat',
-                        'Nico Hulkenberg',
-                        'Lance Stroll',
-                        'Kevin Magnussen',
-                        'Antonio Giovinazzi',
-                        'Romain Grosjean',
-                        'Robert Kubica',
-                        'George Russell'],
+                        ],
                 datasets:[{
                     label:'Laps Led',
                     data: LapsLead,
@@ -141,17 +132,8 @@ const myChart= document.getElementById('myChart').getContext('2d');
                             'rgba(0, 0, 148, 0.39)',
                             'rgba(6, 0, 254, 0.98)',
                             'rgba(255, 234, 0, 1)',
-                            'rgba(255, 37, 163, 0.71)',
-                            'rgba(255, 169, 0, 0.98)',
-                            'rgba(146, 0, 0, 1)',
-                            'rgba(0, 0, 148, 0.39)',
-                            'rgba(255, 234, 0, 1)',
-                            'rgba(255, 37, 163, 0.71)',
-                            'rgba(175, 0, 66, 0.75)',
-                            'rgba(146, 0, 0, 1)',
-                            'rgba(175, 0, 66, 0.75)',
-                            'rgba(46, 164, 210, 0.75)',
-                            'rgba(46, 164, 210, 0.75)'
+                            'rgba(255, 37, 163, 0.71)'
+                            
                             
                             ]
                 }]
